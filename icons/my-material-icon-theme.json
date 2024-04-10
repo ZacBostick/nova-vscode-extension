@@ -1,0 +1,12 @@
+{
+    "iconDefinitions": {
+        "_file_nova": {
+            "iconPath": "nova-file-icons.png"
+        }
+    },
+    "fileExtensions": {
+        "nova": "_file_nova"
+    },
+    "inherits": "vs-minimal",
+    "version": "1.0"
+}

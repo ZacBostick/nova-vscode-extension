@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+      "novaFile": {
+        "iconPath": "nova-file-icons.png"
+      }
+    },
+    "fileExtensions": {
+      "nova": "novaFile"
+    }
+  }
+  

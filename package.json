@@ -1,0 +1,32 @@
+{
+  "name": "novaextension",
+  "displayName": ".nova",
+  "description": "Enhance your Nova language development with rich syntax highlighting support in Visual Studio Code. This extension provides comprehensive, customizable highlighting for Nova's unique syntax, making your coding experience more visually intuitive and productive. From keywords and operators to strings and comments, easily navigate and understand your Nova codebase with clarity and ease.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nova",
+      "aliases": ["Nova", "nova"],
+      "extensions": [".nova"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nova",
+      "scopeName": "source.nova",
+      "path": "./syntaxes/nova.tmLanguage.json"
+    }],
+    "iconThemes": [
+      {
+          "id": "my-material-icon-theme",
+          "label": "My Material Icon Theme",
+          "path": "./icons/my-material-icon-theme.json"
+      }
+    ]
+  }
+}
